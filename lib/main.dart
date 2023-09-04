@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:musicplayerui/pages/home_page.dart';
-import 'package:musicplayerui/pages/onboarding_page.dart';
 import 'package:musicplayerui/pages/splash_page.dart';
 
 void main() {
