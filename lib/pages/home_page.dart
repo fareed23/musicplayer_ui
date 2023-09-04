@@ -22,9 +22,9 @@ class _HomePageState extends State<HomePage> {
             children: [
               // menu and back button
 
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   SizedBox(
                     height: 60,
                     width: 60,
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(12),
                         child: Image.asset(
-                          'lib/images/images.jpeg',
+                          'lib/assets/images/images.jpeg',
                           height: 300,
                           width: 380,
                           fit: BoxFit.cover,
@@ -106,13 +106,13 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
 
-              const SizedBox(height: 40),
+              const SizedBox(height: 30),
 
               // start time, shuffle button, repeat button, end time
 
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
+                children: [
                   Text('00:00'),
                   Icon(Icons.shuffle),
                   Icon(Icons.repeat),
@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
 
-              const SizedBox(height: 25),
+              const SizedBox(height: 20),
 
               // linear bar
 
@@ -136,12 +136,12 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
 
-              const SizedBox(height: 40),
+              const SizedBox(height: 30),
 
               // previous song, pause play, next song
 
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Expanded(
                     child: SizedBox(
                       height: 80,

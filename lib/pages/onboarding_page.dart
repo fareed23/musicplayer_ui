@@ -22,10 +22,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
               const SizedBox(height: 50),
               // a picture or flaticon with neubox
               NeuBox(
-                child: Image.asset('lib/images/listening.png'),
+                child: Image.asset('lib/assets/images/music-note.png'),
               ),
 
-              const SizedBox(height: 50),
+              const SizedBox(height: 40),
 
               // text -> listen music globally
               Center(
